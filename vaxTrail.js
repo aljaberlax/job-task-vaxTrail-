@@ -6,7 +6,6 @@ function vaxTrail(people) {
         D: [],
     };
 
-    // sort people into different age and temperature ranges
     for (let i = 0; i < people.length; i++) {
         // console.log(people[0])
         let person = people[i];
@@ -23,8 +22,7 @@ function vaxTrail(people) {
     return ageRanges;
 }
 
-// Example usage:
-
+// Example 
 
 (vaxTrail([
     { name: 'sunil', age: 21, temperature: 100.9 },
