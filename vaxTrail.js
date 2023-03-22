@@ -20,14 +20,6 @@ function vaxTrail(people) {
             ageRanges.C.push(person);
         }
     }
-
-    // sort each age range by even ages
-    // for (let range in ageRanges) {
-    //     ageRanges[range] = ageRanges[range].filter(person => person.age % 2 === 0)
-    //         .sort((a, b) => a.age - b.age);
-    // }
-    // console.log(ageRanges)
-
     return ageRanges;
 }
 
